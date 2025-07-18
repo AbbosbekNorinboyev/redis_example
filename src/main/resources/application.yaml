@@ -1,0 +1,12 @@
+server:
+  port: 2211
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+logging:
+  level:
+    org.springframework.data.redis: DEBUG
